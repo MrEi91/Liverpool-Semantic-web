@@ -1,0 +1,183 @@
+body {
+    background: #2c3e50;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+li {
+    float: left;
+    color: #000;
+}
+
+li a {
+    /*color: #000;*/
+    display: block;
+    color: #7b7b7b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+}
+
+.col-md-4.img-left {
+    padding: 0px;
+}
+
+.col-md-8.content-right {
+    padding: 0px;
+    height: 597.14px;
+    background: #fff;
+    display: block;
+    overflow-y: scroll;
+    max-height: 597.14px;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #eee;
+}
+
+#wrapper {
+    padding: 200px;
+}
+
+.container {
+    height: 350px;
+}
+
+.content-center {
+    background: #fff;
+}
+
+.content-center .intro p {
+    text-align: center;
+    padding: 30px 60px;
+}
+
+.exprience h3 {
+    text-align: center;
+}
+
+.exprience h3:before {
+    content: "";
+    display: inline-block;
+    margin: 7px;
+    float: none;
+    padding: 0;
+    width: 20%;
+    height: 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.exprience h3:after {
+    content: "";
+    display: inline-block;
+    margin: 7px;
+    float: none;
+    padding: 0;
+    width: 20%;
+    height: 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.icon-custom ul li i {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 26px 20px 26px 26px;
+    margin: 18px 20px 0 0;
+    border-right: 2px solid #ddd;
+    font-size: 32px;
+}
+
+.icon-custom ul li {
+    display: block;
+    position: relative;
+    margin: 0 0 55px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    overflow: inherit;
+    -webkit-transition: all .4s linear!important;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.icon-custom ul li h3 {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin: 22px 0 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.icon-custom ul li p {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.fa-cut:before, .fa-scissors:before {
+    content: "\f0c4";
+}
+
+.skills {
+    height: 160px;
+    padding: 0 25px;
+}
+
+.skills .col-md-11.left {
+    /*width: 500px;*/
+}
+
+.skills-right {
+    height: 160px;
+    padding: 0 25px;
+}
+
+.col-md-11.right {
+    /*width: 500px;*/
+    text-align: right;
+    border-right: 2px solid #ccc;
+}
+
+.col-md-1.icon-left {
+    padding: 25px 0px;
+}
+
+.col-md-1.icon-right {
+    padding: 25px 0px;
+}
+
+.skills .col-md-11.left {
+    /* width: 500px; */
+    border-left: 2px solid #ccc;
+}
+
+.gambar {
+    height: 597.14px;
+    width: 380px;
+}
+
+.gambar img {
+    height: 597.14px;
+    width: 380px;
+    max-height: 640px;
+    max-width: 644px;
+}
